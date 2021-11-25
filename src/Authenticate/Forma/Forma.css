@@ -1,0 +1,129 @@
+
+
+.Forma{
+    min-width: 50%;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    height:100vh;
+}
+
+.forma{
+    width: 80%;
+    min-height: 50%;
+    z-index: 2;
+    padding-bottom: 5%;
+    margin-top: -5%;
+    display: flex;
+    margin-left: 5%;
+}
+
+.one_img{
+    margin-top: 2.2px;
+    width: 500px;
+    height: 120%;
+}
+
+.two_img{
+    width: 600px;
+    margin-left:-3.7%;
+    position: relative;
+    height: 120%;
+}
+
+.logo{
+    margin-top:2%;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 4%;
+}
+
+.logo:hover{
+    transform: rotate(-360deg) scale(.8);
+    transition: all 1s ease-in;
+}
+
+.socia-icon{
+    width: 60%;
+    padding-top: 5%;
+    border-top:2px solid #C4C4C4;
+    margin-bottom: 2%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:4%;
+}
+
+.socia-icon img{
+    width: 50px;
+    height: 50px;
+}
+
+.socia-icon img:hover{
+    transform: scale(.9);
+    transition: all .7s ease;
+}
+
+.socia-icon img:first-child{
+    margin-right: 30px;
+}
+
+.socia-icon img:last-child{
+    margin-left: 30px;
+}
+
+.forma-tag{
+    width:100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    bottom:0;
+    position: absolute;
+}
+
+.forma-tag input{
+    outline: none;
+    height: 40px;
+    min-width: 60%;
+    max-width: 70%;
+    border-radius: 5px;
+    border:none;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.btn{
+    width: 30%;
+    height: 40px;
+    background-color: #392F51;
+    border-radius: 5px;
+    color:white;
+    margin-top: 50px;
+    border-color: #67FDFB;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(0.94);
+    transition: all 0.7s ease;
+}
+
+
+
+@media (max-width: 768px){
+    .logo{
+        margin-bottom: -50%;
+        width: 100px;
+        height: 100px;
+    }
+        .Forma{
+           margin-top: 10%;
+        }
+}

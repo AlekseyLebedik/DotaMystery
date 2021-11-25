@@ -1,0 +1,13 @@
+@import "../../animate/animate.min.css";
+.slick-center.slick-current{
+    transform: scale(1.2);
+}
+
+.Slider{
+    width:100%;
+    overflow:hidden;
+}
+
+.slick-arrow{
+    margin-top: -100px;
+}

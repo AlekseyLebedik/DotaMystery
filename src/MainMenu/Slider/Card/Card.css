@@ -1,0 +1,56 @@
+.Card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.Card img{
+    width: 400px;
+}
+
+.total-card-description{
+    display: none;
+    margin-left: -4%;
+    color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slick-current div .Card .total-card-description{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 200px;
+}
+
+.card__skills{
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 2px;
+}
+
+.card__skills img{
+    width: 70px;
+    height: 70px;
+    border: 2px solid gold;
+    padding:5px;
+    border-radius:4px;
+}
+
+.card__skills img:first-child{
+    margin-right: 20px;
+}
+
+@media (max-width: 1001px){
+    .Card img{
+        width:300px;
+    }
+
+    .card__skills img{
+        width: 40px;
+        height: 40px;
+    }
+    .total-card-description{
+        margin-left:15%;
+    }
+}

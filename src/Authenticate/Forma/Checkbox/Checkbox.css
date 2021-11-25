@@ -1,0 +1,36 @@
+.Checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-bottom: 10px;
+    text-align:center; 
+    border-bottom: 2px solid #C4C4C4;
+}
+
+
+
+.title{
+    margin-top:10px;
+    font-size: 1.4rem;
+    color: white;
+    margin-right: 2%;
+}
+
+.fa-angle-down{
+    margin-left: 5%;
+    font-size: 2rem;
+    color:white;
+    margin-top:10px;
+}
+
+
+.choiceCountry{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content:center;
+    position: relative;
+    top:70px;
+    left:-50px;
+}

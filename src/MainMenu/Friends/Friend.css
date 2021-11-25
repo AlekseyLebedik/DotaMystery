@@ -1,0 +1,39 @@
+.friend{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+}
+
+.hr_friend{
+    width: 50%;
+    margin-top: 5px;
+}
+
+.container-title{
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+.friends__container{
+    overflow: auto;
+    max-height: 700px;
+    width: 80%;
+    background-color: #c4c4c44b;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+
+@media (max-width: 1001px){
+    .friend{
+        bottom: 30px;
+        height: 300px;
+        width: 300px;
+    }
+}

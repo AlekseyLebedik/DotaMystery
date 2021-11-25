@@ -1,0 +1,71 @@
+.field{
+    display:flex;
+    align-items:center;
+    width: 100%;
+    height: 30%;
+}
+
+.field__avatar{
+    width: 30%;
+    height: 50%;
+    margin: 2% 5%;
+    border-radius:5px;
+    border: 2px solid #37B43C;
+}
+
+.field__inform{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom:20px;
+}
+
+ 
+
+.field__username{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+
+
+.field__username .username{
+    font-size: 1.2rem;
+    color: #170a35;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.field__username  .online{
+    font-size: .7rem;
+    color:white;
+}
+
+.field__username .online span{
+    color:rgb(1, 77, 1);
+    font-size: 1.5rem;
+}
+
+.field__rank{
+    padding-top: 10px;
+    width: 60px;
+    height: 50px;
+}
+
+.fa-envelope{
+    padding-top:5%;
+    color: #170a35;
+}
+
+
+@media (max-width: 1001px){
+    .field__username .username{
+        font-size:1rem;
+        margin-bottom: -10px;
+    }
+}

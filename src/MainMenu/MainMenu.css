@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.MainMenu{
+    width:100%;
+    height:100vh;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.far{ 
+    margin-right: 10%;
+}
+
+.fal{
+    margin-left:10%;
+}
+
+.Card{
+    transition: all 1s ease-in-out;
+}
+
+
+.data__text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.slider{
+    width: 80%;
+    margin: 150px auto 0; 
+}
+
+
+.nav-dinamic{
+    display:none;
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    background-size: 100% 100%;
+}
+
+/*TODO Css styles for NAV-LEFT-DINAMIC */
